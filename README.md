@@ -23,7 +23,7 @@ bower install
 ```
 *(This command  will install all project dependencies.)*
 
-> If show some message about 'permission denied' in the next steps, run the command:\
+> If show some message about 'permission denied' in the next steps, run the command: \
 > sudo su
 
 Addict the platforms you want (android, ios, blackberry)
