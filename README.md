@@ -16,16 +16,16 @@ git clone git@github.com:IgorMing/ionic-BarcodeScanner.git
 ```
 
 After cloning the project
-> Verify if you have [bower](https://bower.io/#install-bower) installed.
+> Check if you have [bower](https://bower.io/#install-bower) installed.
 
 ```
 bower install
 ```
 *(This command  will install all project dependencies.)*
 
-> If show some message about 'Permission Denied' in the next steps, run the command: `sudo su`
+> If it shows 'Permission Denied' in the next steps, run the command: `sudo su`
 
-Adding the platforms you want (android, ios, blackberry)
+Add the platforms you want (android, ios, blackberry)
 ```
 ionic platform add [platform]
 ```
