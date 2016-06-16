@@ -37,8 +37,7 @@ ionic build [platform]
 
 Connect some avd device, or play it in your real device
 
-> You can list your disponible connected devices running:\
-> adb devices
+> You can list your disponible connected devices running: `adb devices`
 
 Now, just run it!
 ```
