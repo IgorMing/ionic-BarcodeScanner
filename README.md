@@ -23,9 +23,9 @@ bower install
 ```
 *(This command  will install all project dependencies.)*
 
-> If show some message about 'permission denied' in the next steps, run the command: `sudo su`
+> If show some message about 'Permission Denied' in the next steps, run the command: `sudo su`
 
-Addict the platforms you want (android, ios, blackberry)
+Adding the platforms you want (android, ios, blackberry)
 ```
 ionic platform add [platform]
 ```
@@ -46,5 +46,3 @@ ionic run [platform]
 ```
 
 * For more information, visit the official websites [ionic](http://ionicframework.com/) and [cordova](https://cordova.apache.org/)
-
-
