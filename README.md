@@ -3,15 +3,14 @@
 ### Project base for barcode scanning.
 
 Getting Started
-======================
+----------------------
 
 Cloning the project
-----------------------
-#### HTTPS
+##### HTTPS
 ```
 git clone https://github.com/IgorMing/ionic-BarcodeScanner.git
 ```
-### or SSH
+##### or SSH
 ```
 git clone git@github.com:IgorMing/ionic-BarcodeScanner.git
 ```
