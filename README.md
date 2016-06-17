@@ -25,6 +25,11 @@ bower install
 
 > If it shows 'Permission Denied' in the next steps, run the command: `sudo su`
 
+Add the ngCordova plugin responsable to scan
+```
+cordova plugin add https://github.com/phonegap/phonegap-plugin-barcodescanner.git
+```
+
 Add the platforms you want (android, ios, blackberry)
 ```
 ionic platform add [platform]
