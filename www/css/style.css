@@ -1,3 +1,5 @@
-#scan-btn {
-  margin: 40px auto;
+#btn-scan {
+  height: 150px;
+  font-size: 35px;
+  font-weight: bolder;
 }

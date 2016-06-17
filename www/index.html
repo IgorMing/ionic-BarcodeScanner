@@ -29,17 +29,20 @@
       </ion-header-bar>
       <ion-content ng-controller="ExampleController">
         <div class="text-center">
-          <div class="">
-            <button id="scan-btn" type="button" class="btn btn-default"
-              ng-click="scanBarcode()" name="button">
-              Scan
-            </button>
-            <input ng-value="barcode_value" class="text-center form-control"
-              type="text" placeholder="Retorno do código de barras…" readonly>
+          <button id="btn-scan" class="button button-full button-stable"
+            ng-click="scanBarcode()">
+            Scan
+          </button>
 
-            <input ng-value="barcode_format" class="text-center form-control"
-              type="text" placeholder="Formato do código de barras…" readonly>
-          </div>
+          <label class="item item-input item-floating-label">
+            <input type="text" placeholder="Retorno do código de barras…"
+              ng-value="barcode_value">
+          </label>
+
+          <label class="item item-input item-floating-label">
+            <input type="text" placeholder="Formato do código de barras…"
+              ng-value="barcode_format">
+          </label>
         </div>
       </ion-content>
     </ion-pane>
